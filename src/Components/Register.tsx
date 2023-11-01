@@ -1,4 +1,4 @@
-import React, {useState, useEffect, ChangeEvent} from "react";
+import {useState, useEffect, ChangeEvent} from "react";
 import { createUserWithEmailAndPassword} from "firebase/auth";
 import {auth} from "./Firebase.tsx";
 import {useNavigate} from "react-router-dom";
